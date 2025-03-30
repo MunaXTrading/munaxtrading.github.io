@@ -1,48 +1,121 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Центрированное изображение с черным фоном</title>
-    <style>
-        body {
-            background-color: black;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            position: relative;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        .bonus-button {
-            background-color: #007AFF;
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            border-radius: 20px;
-            font-size: 16px;
-            width: 180px;
-            cursor: pointer;
-            margin-top: 10px;
-            position: absolute;
-        
-        }
-        .bonus-button {
-            position: absolute;
-            left: 880px;
-            top: 170px; 
-        }
-        .bonus-button:hover {
-            background-color: #005BBB;
-        }
-    </style>
-</head>
-<body>
-    <img src="img.png" alt="Центрированное изображение">
-    <button class="bonus-button" onclick="window.location.href='https://www.mexc.com/ru-RU/acquisition/custom-sign-up?shareCode=mexc-122ueW';">Бонус 20$</button>
-</body>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   MEXC App Page
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-black text-white">
+  <div class="max-w-md mx-auto p-4">
+   <div class="flex items-center mb-4">
+    <button class="text-blue-500 text-lg mr-2">
+     ←
+    </button>
+    <span class="text-blue-500 text-lg">
+     Обратно
+    </span>
+   </div>
+   <div class="flex items-center mb-4">
+    <img alt="App logo" class="w-20 h-20 rounded-lg" height="80" src="a.png" width="80"/>
+    <div class="ml-4">
+     <h1 class="text-xl font-bold">
+      MEXC : покупайте криптовалюту
+     </h1>
+     <p class="text-gray-400">
+      MEXC Fintech, Inc
+     </p>
+     <button class="bg-blue-500 text-white px-4 py-1 rounded-full mt-2" onclick="window.location.href='https://www.mexc.com/ru-RU/acquisition/custom-sign-up?shareCode=mexc-122ueW'">
+      Бонус 20$
+     </button>
+    </div>
+   </div>
+   <div class="flex items-center mb-4">
+    <div class="flex items-center mr-4">
+     <span class="text-lg font-bold">
+      1116 ОЦЕНОК
+     </span>
+     <span class="ml-2 text-lg">
+      4.5
+     </span>
+     <div class="flex ml-2">
+      <i class="fas fa-star text-yellow-400">
+      </i>
+      <i class="fas fa-star text-yellow-400">
+      </i>
+      <i class="fas fa-star text-yellow-400">
+      </i>
+      <i class="fas fa-star text-yellow-400">
+      </i>
+      <i class="fas fa-star-half-alt text-yellow-400">
+      </i>
+     </div>
+    </div>
+    <div class="mr-4">
+     <span class="text-lg font-bold">
+      ВОЗРАСТ
+     </span>
+     <span class="ml-2 text-lg">
+      18+
+     </span>
+    </div>
+    <div class="mr-4">
+     <span class="text-lg font-bold">
+      РЕЙТИНГ
+     </span>
+     <span class="ml-2 text-lg">
+      #11
+     </span>
+     <span class="text-gray-400">
+      Финансы
+     </span>
+    </div>
+    <div>
+     <span class="text-lg font-bold">
+      РАЗРАБОТЧИК
+     </span>
+     <span class="ml-2 text-lg">
+      5+
+     </span>
+     <span class="text-gray-400">
+      MEXC Fintech, Inc
+     </span>
+    </div>
+   </div>
+   <div class="mb-4">
+    <h2 class="text-lg font-bold">
+     Что нового
+    </h2>
+    <p class="text-gray-400">
+     Версия 5.2.0
+    </p>
+    <p class="text-gray-400">
+     3 дня назад
+    </p>
+    <p class="text-gray-400 mt-2">
+     В этом обновлении исправлены ошибки, повышена производительность и улучшен пользовательский опыт.
+    </p>
+   </div>
+   <div>
+    <h2 class="text-lg font-bold mb-2">
+     Снимки в приложении
+    </h2>
+ 
+
+
+    <div class="grid grid-cols-2 gap-4">
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="App screenshot showing 0% commission" class="mt-2 rounded-lg" height="800" src="img1.png" width="600"/>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg">
+      <img alt="App screenshot showing trading pairs" class="mt-2 rounded-lg" height="800" src="img2.png" width="600"/>
+     </div>
+    </div>
+    
+   </div>
+  </div>
+ </body>
 </html>
